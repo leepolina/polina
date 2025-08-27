@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ul,
+li,
+form,
+label,
+input,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+  background-color: #ffffff;
+  color: #212121;
+}

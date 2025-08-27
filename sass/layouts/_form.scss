@@ -1,0 +1,55 @@
+.text-form {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: rgba(117, 117, 117, 1);
+  margin-top: 20px;
+}
+
+.link-form {
+  margin-left: 3px;
+  margin-right: 51px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: rgba(33, 150, 243, 1);
+}
+.input {
+  display: flex;
+}
+
+.input > input {
+  width: 16px;
+  height: 15px;
+  margin: 25px 8px 34px 52px;
+}
+
+.send-form {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
+  padding: 10px 52px;
+  margin: 0px 164px 40px;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+
+.send-form:hover,
+.send-form:focus {
+  background-color: rgba(24, 140, 232, 1);
+}
+
+

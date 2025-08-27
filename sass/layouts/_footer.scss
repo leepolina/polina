@@ -1,0 +1,134 @@
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.mail-footer {
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 3%;
+  color: #757575;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.phn-footer {
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 3%;
+  color: #757575;
+  display: block;
+  margin-top: 9px;
+}
+
+.address-footer {
+  font-family: "roboto" sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: block;
+  line-height: 1, 71;
+  letter-spacing: 3%;
+
+  margin-bottom: 9px;
+  color: #ffffff;
+}
+
+.info-footer {
+  gap: 9px;
+}
+.footer-contact {
+  margin-right: 70px;
+}
+
+.logo-footer {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-item {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03;
+}
+
+.div-footer {
+  display: flex;
+}
+.logofooter-item {
+  display: flex;
+  margin-bottom: 20px;
+  color: #2196f3;
+}
+
+.icon-footer {
+  fill: #ffffff;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  display: block;
+}
+
+.icons-footer {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  background-color: #2196f3;
+  width: 44px;
+  height: 44px;
+  fill: #ffffff;
+  padding: 12px;
+  border-radius: 50%;
+}
+.list-icon {
+  display: flex;
+  gap: 10px;
+}
+.div-footer {
+  display: flex;
+}
+
+.list-icon-black {
+  display: flex;
+  gap: 10px;
+  margin: 0px 30px 30px 32px;
+}
+.icon-black {
+  width: 20px;
+  height: 20px;
+}
+.icone-black {
+  padding: 12px;
+  fill: #afb1b8;
+  border-radius: 50%;
+  display: block;
+}
+.icone-black:hover,
+.icone-black:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+.new-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}

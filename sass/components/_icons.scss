@@ -1,0 +1,125 @@
+.list-icon {
+  display: flex;
+  gap: 10px;
+}
+.div-footer {
+  display: flex;
+}
+
+.list-icon-black {
+  display: flex;
+  gap: 10px;
+  margin: 0px 30px 30px 32px;
+}
+.icon-black {
+  width: 20px;
+  height: 20px;
+}
+.icone-black {
+  padding: 12px;
+  fill: #afb1b8;
+  border-radius: 50%;
+  display: block;
+}
+.icone-black:hover,
+.icone-black:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+
+
+.address-item:hover .address-icon {
+  fill: var(--accent-color);
+}
+
+
+
+.yaco-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.company-icon {
+  width: 40px;
+  height: 51px;
+  fill: #afb1b8;
+}
+
+.round-icon {
+  width: 43px;
+  height: 41px;
+  margin: 24px 64px 26px 61px;
+  fill: #afb1b8;
+}
+
+.foster-icon {
+  width: 84px;
+  height: 40px;
+  margin: 24px 42px 26px 43px;
+  fill: #afb1b8;
+}
+
+.brand-icon {
+  width: 106px;
+  height: 60px;
+  margin: 16px 32px;
+  fill: #afb1b8;
+}
+
+.tagline-icon {
+  width: 93px;
+  height: 43px;
+  margin: 22px 38px 25px;
+  fill: #afb1b8;
+}
+
+.vipicon {
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  padding: 16px 32px;
+}
+
+.vipicon:hover,
+.vipicon:focus {
+  border: 1px solid #2196f3;
+}
+.vipicon:hover .yaco-icon {
+  fill: #2196f3;
+}
+
+.address-icon {
+  display: flex;
+}
+
+
+.icon-footer {
+  fill: #ffffff;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  display: block;
+}
+
+
+.icons-footer {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  background-color: #2196f3;
+  width: 44px;
+  height: 44px;
+  fill: #ffffff;
+  padding: 12px;
+  border-radius: 50%;
+}

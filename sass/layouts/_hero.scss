@@ -1,0 +1,36 @@
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/webstudiobackgroundd.jpg);
+}
+
+.button-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 6%;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+
