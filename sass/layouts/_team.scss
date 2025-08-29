@@ -6,7 +6,7 @@
 }
 
 .team__title {
-  display: flex;
+  @extend %flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -18,7 +18,7 @@
 }
 
 .team__name {
-  display: flex;
+  @extend %flex;
   text-align: center;
   justify-content: center;
   margin-top: 30px;
@@ -27,7 +27,7 @@
 }
 
 .team__position {
-  display: flex;
+  @extend %flex;
   text-align: center;
   justify-content: center;
   color: rgba(117, 117, 117, 1);
@@ -40,11 +40,8 @@
 }
 
 .team__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @extend %flex;
   gap: 30px;
-  justify-content: space-between;
 }
 
 .teamname__list {
@@ -56,8 +53,7 @@
 }
 
 .team__svg__list {
-  display: flex;
-  justify-content: space-between;
+   @extend %flex;
 }
 .team__svg__item {
   fill: rgba(175, 177, 184, 1);

@@ -5,7 +5,7 @@
   text-align: center;
   letter-spacing: 0.03;
   line-height: 1.6;
-  display: flex;
+  @extend %flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
@@ -14,7 +14,7 @@
   margin-bottom: 50px;
 }
 .list-list {
-  display: flex;
+  @extend %flex;
   flex-wrap: wrap;
   margin-bottom: 94px;
   gap: 30px;

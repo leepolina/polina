@@ -1,13 +1,13 @@
 .list-icon {
-  display: flex;
+  @extend %flex;
   gap: 10px;
 }
 .div-footer {
-  display: flex;
+  @extend %flex;
 }
 
 .list-icon-black {
-  display: flex;
+  @extend %flex;
   gap: 10px;
   margin: 0px 30px 30px 32px;
 }
@@ -94,7 +94,7 @@
 }
 
 .address-icon {
-  display: flex;
+  @extend %flex;
 }
 
 

@@ -1,6 +1,6 @@
 
 .whatwedo__title {
-  display: flex;
+  @extend %flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -11,9 +11,7 @@
   margin-bottom: 50px;
 }
 .whatwedo__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @extend %flex;
   gap: 30px;
 }
 .whatwedo__image {

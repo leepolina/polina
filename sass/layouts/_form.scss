@@ -21,7 +21,7 @@
   color: $accent-color;
 }
 .input {
-  display: flex;
+  @extend %flex;
 }
 
 .input > input {

@@ -125,7 +125,7 @@
   font-size: 12px;
   font-weight: 400;
   color: rgba(117, 117, 117, 1);
-  display: flex;
+  @extend %flex;
   flex-direction: column;
   align-items: left;
   position: relative;

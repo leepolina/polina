@@ -1,16 +1,14 @@
 .header {
-  display: flex;
+  @extend %flex;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+   @extend %flex;
 
   &__list {
-    display: flex;
+    @extend %flex;
     gap: 20px;
   }
 
@@ -43,7 +41,7 @@
 }
 
 .address__list {
-  display: flex;
+  @extend %flex;
   gap: 15px;
   align-items: center;
 }
@@ -62,7 +60,7 @@
 }
 
 .address__icon {
-  display: flex;
+  @extend %flex;
 }
 
 .email {

@@ -60,10 +60,10 @@
 }
 
 .div__footer {
-  display: flex;
+    @extend %flex;
 }
 .logofooter__item {
-  display: flex;
+   @extend %flex;
   margin-bottom: 20px;
   color: #2196f3;
 }
@@ -93,15 +93,15 @@
   border-radius: 50%;
 }
 .list__icon {
-  display: flex;
+  @extend %flex;
   gap: 10px;
 }
 .div__footer {
-  display: flex;
+  @extend %flex;
 }
 
 .list__icon__black {
-  display: flex;
+  @extend %flex;
   gap: 10px;
   margin: 0px 30px 30px 32px;
 }
