@@ -18,7 +18,7 @@
   letter-spacing: 3%;
   text-decoration: underline;
   text-decoration-style: solid;
-  color: rgba(33, 150, 243, 1);
+  color: $accent-color;
 }
 .input {
   display: flex;
@@ -38,7 +38,7 @@
   letter-spacing: 6%;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(33, 150, 243, 1);
+  background-color: $accent-color;
   padding: 10px 52px;
   margin: 0px 164px 40px;
   border: transparent;
@@ -49,7 +49,7 @@
 
 .send-form:hover,
 .send-form:focus {
-  background-color: rgba(24, 140, 232, 1);
+  background-color: $accent-color;
 }
 
 

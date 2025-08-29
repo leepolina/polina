@@ -57,7 +57,7 @@
 
 .X > svg:hover,
 .X > svg:focus {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .name-modal {
@@ -84,7 +84,7 @@
 }
 .modal-icon:hover,
 .modal-icon:focus {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .comment-modal {
@@ -114,11 +114,11 @@
 .modal-input:hover,
 .modal-input:focus,
 .modal-input:active {
-  border: 1px solid rgba(33, 150, 243, 1);
+  border: 1px solid $accent-color;
 }
 
 .modal-input:hover .modal-icon {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .modal-label {

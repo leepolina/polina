@@ -85,7 +85,7 @@
 
 .icon-footer:hover,
 .icon-footer:focus {
-  background-color: #2196f3;
+  background-color: $accent-color;
   width: 44px;
   height: 44px;
   fill: #ffffff;
@@ -117,7 +117,7 @@
 }
 .icone-black:hover,
 .icone-black:focus {
-  background-color: #2196f3;
+  background-color: $accent-color;
   fill: #ffffff;
   border-radius: 50%;
   width: 44px;

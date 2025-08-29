@@ -33,7 +33,7 @@
 
 
 .address-item:hover .address-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 
@@ -87,10 +87,10 @@
 
 .vipicon:hover,
 .vipicon:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid $accent-color;
 }
 .vipicon:hover .yaco-icon {
-  fill: #2196f3;
+  fill: $accent-color
 }
 
 .address-icon {
@@ -116,7 +116,7 @@
 
 .icon-footer:hover,
 .icon-footer:focus {
-  background-color: #2196f3;
+  background-color: $accent-color;
   width: 44px;
   height: 44px;
   fill: #ffffff;

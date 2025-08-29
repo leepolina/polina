@@ -26,9 +26,9 @@
 
 .vipicon:hover,
 .vipicon:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid $accent-color;
 }
 .vipicon:hover .yaco-icon {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
