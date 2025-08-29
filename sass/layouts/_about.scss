@@ -3,13 +3,13 @@
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.about-list {
+.about__list {
   display: flex;
   align-items: start;
   gap: 30px;
 }
 
-.about-item::before {
+.about__item::before {
   content: "";
   display: inline-block;
   border-radius: 8px;
@@ -20,15 +20,15 @@
   width: 270px;
   height: 120px;
 }
-.about-item:nth-child(1)::before {
+.about__item:nth-child(1)::before {
   background-image: url(../images/antenna\ 1.png);
 }
-.about-item:nth-child(2)::before {
+.about__item:nth-child(2)::before {
   background-image: url(../images/clock\ 1.png);
 }
-.about-item:nth-child(3)::before {
+.about__item:nth-child(3)::before {
   background-image: url(../images/diagram\ 1.png);
 }
-.about-item:nth-child(4)::before {
+.about__item:nth-child(4)::before {
   background-image: url(../images/astronaut\ 1.png);
 }

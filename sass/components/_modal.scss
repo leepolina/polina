@@ -1,4 +1,3 @@
-
 .backdrop {
   position: fixed;
   background-color: #00000033;
@@ -33,7 +32,7 @@
   visibility: hidden;
 }
 
-.modal-close {
+.modal__close {
   fill: #000;
 }
 .X {
@@ -60,7 +59,7 @@
   fill: $accent-color;
 }
 
-.name-modal {
+.modal__name {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 20px;
@@ -73,7 +72,7 @@
   color: rgba(33, 33, 33, 1);
 }
 
-.modal-icon {
+.modal__icon {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -82,12 +81,12 @@
   top: 50%;
   transform: translateY(-50%);
 }
-.modal-icon:hover,
-.modal-icon:focus {
+.modal__icon:hover,
+.modal__icon:focus {
   fill: $accent-color;
 }
 
-.comment-modal {
+.comment__modal {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
@@ -97,7 +96,7 @@
   margin: 12px 466px 4px 40px;
 }
 
-.modal-input {
+.modal__input {
   width: 448px;
   height: 40px;
   border-width: 1px;
@@ -111,17 +110,17 @@
   box-sizing: border-box;
 }
 
-.modal-input:hover,
-.modal-input:focus,
-.modal-input:active {
+.modal__input:hover,
+.modal__input:focus,
+.modal__input:active {
   border: 1px solid $accent-color;
 }
 
-.modal-input:hover .modal-icon {
+.modal__input:hover .modal__icon {
   fill: $accent-color;
 }
 
-.modal-label {
+.modal__label {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -132,7 +131,6 @@
   position: relative;
   margin-bottom: 16px;
 }
-
 
 .input-checkbox {
   margin-top: 16px;

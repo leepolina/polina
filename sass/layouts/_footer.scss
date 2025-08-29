@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.mail-footer {
+.mail__footer {
   font-family: "roboto";
   font-weight: 400;
   font-size: 14px;
@@ -13,7 +13,7 @@
   margin-top: 9px;
   margin-bottom: 9px;
 }
-.phn-footer {
+.phn__footer {
   font-family: "roboto";
   font-weight: 400;
   font-size: 14px;
@@ -24,7 +24,7 @@
   margin-top: 9px;
 }
 
-.address-footer {
+.address__footer {
   font-family: "roboto" sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -36,14 +36,14 @@
   color: #ffffff;
 }
 
-.info-footer {
+.info__footer {
   gap: 9px;
 }
-.footer-contact {
+.footer__contact {
   margin-right: 70px;
 }
 
-.logo-footer {
+.logo__footer {
   font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -52,23 +52,23 @@
   margin-bottom: 20px;
 }
 
-.footer-item {
+.footer__item {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03;
 }
 
-.div-footer {
+.div__footer {
   display: flex;
 }
-.logofooter-item {
+.logofooter__item {
   display: flex;
   margin-bottom: 20px;
   color: #2196f3;
 }
 
-.icon-footer {
+.icon__footer {
   fill: #ffffff;
   width: 44px;
   height: 44px;
@@ -78,13 +78,13 @@
   display: block;
 }
 
-.icons-footer {
+.icons__footer {
   width: 20px;
   height: 20px;
 }
 
-.icon-footer:hover,
-.icon-footer:focus {
+.icon__footer:hover,
+.icon__footer:focus {
   background-color: $accent-color;
   width: 44px;
   height: 44px;
@@ -92,31 +92,31 @@
   padding: 12px;
   border-radius: 50%;
 }
-.list-icon {
+.list__icon {
   display: flex;
   gap: 10px;
 }
-.div-footer {
+.div__footer {
   display: flex;
 }
 
-.list-icon-black {
+.list__icon__black {
   display: flex;
   gap: 10px;
   margin: 0px 30px 30px 32px;
 }
-.icon-black {
+.icon__black {
   width: 20px;
   height: 20px;
 }
-.icone-black {
+.icone__black {
   padding: 12px;
   fill: #afb1b8;
   border-radius: 50%;
   display: block;
 }
-.icone-black:hover,
-.icone-black:focus {
+.icone__black:hover,
+.icone__black:focus {
   background-color: $accent-color;
   fill: #ffffff;
   border-radius: 50%;
@@ -124,7 +124,7 @@
   height: 44px;
   padding: 12px;
 }
-.new-title {
+.new__title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;

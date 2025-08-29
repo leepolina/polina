@@ -1,4 +1,4 @@
-.text-form {
+.text__form {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -8,7 +8,7 @@
   margin-top: 20px;
 }
 
-.link-form {
+.link__form {
   margin-left: 3px;
   margin-right: 51px;
   font-family: "Roboto";
@@ -30,7 +30,7 @@
   margin: 25px 8px 34px 52px;
 }
 
-.send-form {
+.send__form {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -47,8 +47,8 @@
   display: block;
 }
 
-.send-form:hover,
-.send-form:focus {
+.send__form:hover,
+.send__form:focus {
   background-color: $accent-color;
 }
 
