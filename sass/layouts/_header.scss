@@ -5,11 +5,13 @@
   padding-bottom: 25px;
 }
 .nav {
-   @extend %flex;
+  @extend %flex;
+  justify-content: space-between;
 
   &__list {
     @extend %flex;
-    gap: 20px;
+    gap: 53px;
+    margin-right: 310px;
   }
 
   &__item:hover {
@@ -27,7 +29,7 @@
     transform: scaleX(1);
   }
 
-  &__item::after {
+  &__item:hover::after {
     content: "";
     display: inline-block;
     background-color: $accent-color;

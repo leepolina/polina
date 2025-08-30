@@ -1,4 +1,9 @@
-
+.whatwedo {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
 .whatwedo__title {
   @extend %flex;
   justify-content: center;
