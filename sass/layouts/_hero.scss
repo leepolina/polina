@@ -9,15 +9,64 @@
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 6%;
-  background-repeat: no-repeat;
-  background-size: 1600px;
-  background-position: center;
-  background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../images/webstudiobackgroundd.jpg);
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 2.6;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../images/webstudiobackgroundd.jpg);
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../images/webstudiobackgroundd.jpg);
+    width: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../images/webstudiobackgroundd.jpg);
+    width: 100%;
+  }
 }
 
 .button-item {
@@ -32,5 +81,3 @@
   padding-top: 10px;
   margin-top: 30px;
 }
-
-

@@ -1,8 +1,6 @@
 .header {
   @extend %flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .nav {
   @extend %flex;
