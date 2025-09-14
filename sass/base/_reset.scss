@@ -1,19 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-img,
-ul,
-li,
-form,
-label,
-input,
-a {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -30,4 +18,10 @@ body {
   letter-spacing: 0.02;
   background-color: #ffffff;
   color: #212121;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }

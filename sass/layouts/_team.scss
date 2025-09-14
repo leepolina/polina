@@ -34,26 +34,41 @@
   margin-bottom: 16px;
 }
 
-.team__image {
-  width: 270px;
-  height: 260px;
-}
-
 .team__list {
   @extend %flex;
   gap: 30px;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
 }
 
 .teamname__list {
   width: 270px;
   border-radius: 5px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 5px 2px 5px rgba(0, 0, 0, 0.14);
-  margin-bottom: 188px;
   background-color: #fff;
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    .about__item:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    margin-bottom: 0;
+  }
 }
 
 .team__svg__list {
-   @extend %flex;
+  @extend %flex;
+  align-items: center;
+  justify-content: center;
 }
 .team__svg__item {
   fill: rgba(175, 177, 184, 1);
