@@ -1,4 +1,4 @@
-.list-list, .main-list, .list__icon__black, .list__icon, .logofooter__item, .div__footer, .subscribe-btn, .input, .team__svg__list, .team__list, .team__position, .team__name, .team__title, .whatwedo__list, .whatwedo__title, .about__list, .address__icon, .address__list, .nav__list, .nav, .header, .team-title, .whatwedo-title, .modal__label, .address-icon, .list-icon-black, .div-footer, .list-icon {
+.list-list, .main-list, .list__icon__black, .list__icon, .logofooter__item, .div__footer, .input, .team__svg__list, .team__list, .team__position, .team__name, .team__title, .whatwedo__list, .whatwedo__title, .about__list, .address__icon, .address__list, .nav__list, .nav, .header, .team-title, .whatwedo-title, .modal__label, .address-icon, .list-icon-black, .div-footer, .list-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,13 +357,17 @@ img {
   letter-spacing: 0.03;
 }
 
-.logo-footer {
-  font-family: "raleway", sans-serif;
+.logo__footer {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 3%;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+.spann {
+  color: #2196f3;
 }
 
 .footerlogo-item1 {
@@ -515,19 +519,6 @@ img {
 .hero {
   /**padding-top: 200px;
   padding-bottom: 200px;*/
-  text-align: center;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 6%;
-  margin: 0 auto;
-  max-width: 480px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 2.6;
-  letter-spacing: 6%;
   text-transform: uppercase;
   background-repeat: no-repeat;
   background-position: center;
@@ -537,18 +528,15 @@ img {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
     font-size: 26px;
     line-height: 1.6;
     letter-spacing: 6%;
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../images/hero_tablet2x.png);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/hero_tablet2x.png);
-    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1200px;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 6%;
@@ -563,17 +551,41 @@ img {
     background-image: url(../../images/hero_tablet2x.png);
   }
 }
-.hero .button-item {
+
+.hero__text {
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 6%;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6;
+}
+@media screen and (min-width: 1200px) {
+  .hero__text {
+    font-size: 44px;
+  }
+}
+
+.button-item {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 6%;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin-top: 30px;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 10px 24px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .button-item {
+    padding: 10px 32px;
+  }
 }
 
 .about {
@@ -759,8 +771,19 @@ img {
 }
 
 .vipclients__item {
-  width: 210px;
+  width: 45%;
 }
+@media screen and (min-width: 768px) {
+  .vipclients__item {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vipclients__item {
+    width: 170px;
+  }
+}
+
 .vipicon {
   display: block;
   width: 100%;
@@ -840,7 +863,7 @@ img {
 }
 
 .teamname__list {
-  width: 270px;
+  width: 100%;
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 5px 2px 5px rgba(0, 0, 0, 0.14);
           box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 5px 2px 5px rgba(0, 0, 0, 0.14);
@@ -1008,44 +1031,54 @@ img {
 }
 
 .subscribtion {
-  margin-left: 93px;
-  width: 358px;
-  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .subscribtion-input {
-  border-radius: 2px;
+  border-radius: 1px;
+  display: inline-block;
+  padding: 15px;
   border: #757575;
   background-color: rgb(47, 48, 58);
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 16px;
+  min-width: 100%;
+  width: 450px;
 }
 
 .subscribe-btn {
   background-color: #2196f3;
+  display: inline-block;
   color: white;
   border: none;
   padding: 10px 35px;
   border-radius: 5px;
   font-size: 14px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 5px;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
   font-family: "Roboto", sans-serif;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .footer {
   background-color: rgb(47, 48, 58);
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
+}
+.footer .logo {
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .mail__footer {
@@ -1086,7 +1119,17 @@ img {
 }
 
 .footer__contact {
-  margin-right: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
 }
 
 .logo__footer {
@@ -1095,7 +1138,10 @@ img {
   font-size: 26px;
   letter-spacing: 3%;
   color: #ffffff;
-  margin-bottom: 20px;
+}
+
+.footer-link {
+  margin-bottom: 60px;
 }
 
 .footer__item {
@@ -1103,6 +1149,13 @@ img {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03;
+}
+
+.div__footer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .logofooter__item {

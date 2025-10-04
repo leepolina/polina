@@ -1,21 +1,7 @@
 .hero {
   /**padding-top: 200px;
   padding-bottom: 200px;*/
-  text-align: center;
 
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 6%;
-  margin: 0 auto;
-
-  max-width: 480px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 2.6;
-  letter-spacing: 6%;
   text-transform: uppercase;
   background-repeat: no-repeat;
   background-position: center;
@@ -28,8 +14,6 @@
   padding: 118px 0;
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
-
     font-size: 26px;
     line-height: 1.6;
     letter-spacing: 6%;
@@ -39,20 +23,18 @@
         rgba(0, 0, 0, 0.4)
       ),
       url(../../images/hero_tablet2x.png);
-    width: 100%;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 6%;
     background-size: 1600px;
     background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../../images/hero_tablet1x.png);
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../../images/hero_tablet1x.png);
     padding: 200px 0px;
 
     @media (min-device-pixel-ratio: 2),
@@ -64,17 +46,45 @@
       }
     }
   }
+}
 
-  .button-item {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 6%;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 30px;
+.hero__text {
+  text-align: center;
+
+  color: #ffffff;
+  letter-spacing: 6%;
+  margin-bottom: 30px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+  }
+}
+
+.button-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 6%;
+  //   padding-right: 32px;
+  //   padding-left: 32px;
+  //   padding-bottom: 10px;
+  //   padding-top: 10px;
+  background-color: $accent-color;
+  border-radius: 4px;
+  border-color: transparent;
+
+  padding: 10px 24px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+
+  @media screen and (min-width: 1200px) {
+    padding: 10px 32px;
   }
 }
