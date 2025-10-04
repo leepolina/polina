@@ -8,6 +8,26 @@
     margin-bottom: 20px;
     display: inline-block;
   }
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.footer__father {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 165px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .mail__footer {
@@ -77,6 +97,10 @@
 .div__footer {
   @extend %flex;
   flex-direction: column;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 .logofooter__item {
   @extend %flex;

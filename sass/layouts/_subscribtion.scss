@@ -3,6 +3,7 @@
   font-size: 14px;
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .subscribtion {
@@ -18,12 +19,13 @@
   display: inline-block;
   padding: 15px;
   border: #757575;
-  background-color: rgba(47, 48, 58, 1);
+  background-color: transparent;
   margin-top: 15px;
   margin-bottom: 15px;
   //   margin-left: 16px;
   min-width: 100%;
   width: 450px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .subscribe-btn {
