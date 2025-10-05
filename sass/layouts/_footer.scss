@@ -7,6 +7,9 @@
   .logo {
     margin-bottom: 20px;
     display: inline-block;
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -27,6 +30,7 @@
 
   @media screen and (min-width: 1200px) {
     flex-direction: row;
+    gap: 70px;
   }
 }
 
@@ -73,6 +77,11 @@
   align-items: center;
 
   margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
 }
 
 .logo__footer {
@@ -100,6 +109,7 @@
 
   @media screen and (min-width: 1200px) {
     flex-direction: row;
+    align-items: flex-start;
   }
 }
 .logofooter__item {

@@ -911,6 +911,7 @@ img {
 .team__svg__icon {
   width: 20px;
   height: 20px;
+  fill: rgb(175, 177, 184);
 }
 
 .text__form {
@@ -1051,25 +1052,70 @@ img {
   background-color: transparent;
   margin-top: 15px;
   margin-bottom: 15px;
-  min-width: 100%;
   width: 450px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media screen and (min-width: 1200px) {
+  .subscribtion-input {
+    width: 358px;
+  }
 }
 
 .subscribe-btn {
   background-color: #2196f3;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: white;
   border: none;
+  line-height: 1.2;
   padding: 10px 35px;
   border-radius: 5px;
   font-size: 14px;
-  gap: 5px;
+  font-weight: 700;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
   font-family: "Roboto", sans-serif;
   width: 200px;
   margin: 0 auto;
+  letter-spacing: 0.06em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-btn {
+    font-size: 16px;
+  }
+}
+
+.subscription__svg {
+  fill: rgb(255, 255, 255);
+  width: 24px;
+  height: 24px;
+}
+
+.subscription__father {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .subscription__father {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 12px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .footer {
@@ -1081,6 +1127,11 @@ img {
 .footer .logo {
   margin-bottom: 20px;
   display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  .footer .logo {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer {
@@ -1118,6 +1169,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    gap: 70px;
   }
 }
 
@@ -1171,6 +1223,14 @@ img {
           align-items: center;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .footer__contact {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 0;
+  }
+}
 
 .logo__footer {
   font-family: "raleway", sans-serif;
@@ -1203,6 +1263,9 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
