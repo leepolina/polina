@@ -3,19 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <title>portfolio</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -183,66 +181,79 @@
       </ul>
     </main>
     <footer class="footer">
-      <div class="container div-footer">
-        <div class="footer-contact">
-          <a class="logo-footer" href="./index.html"><span>Web</span>Studio</a>
-          <ul class="info-footer">
-            <li>
-              <a class="address-footer" href="#" target="_blank"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li>
-              <a class="mail-footer" href="#">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="phn-footer" href="#">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-link">
-          <h3 class="new-title">ПРИЄДНУЙТЕСЬ</h3>
-          <ul class="list-icon">
-            <li>
-              <a class="icon-footer" href="#">
-                <svg class="icons-footer">
-                  <use href="./images/symbol-defs.svg#icon-inst"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="icon-footer" href="#">
-                <svg class="icons-footer">
-                  <use href="./images/symbol-defs.svg#icon-tw"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="icon-footer" href="#">
-                <svg class="icons-footer">
-                  <use href="./images/symbol-defs.svg#icon-fc"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="icon-footer" href="#">
-                <svg class="icons-footer">
-                  <use href="./images/symbol-defs.svg#icon-in"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+      <div class="container div__footer">
+        <div class="footer__father">
+          <div class="footer__contact">
+            <a class="logo__footer" href="./index.html"
+              ><span class="spann">Web</span>Studio</a
+            >
+            <ul class="info__footer">
+              <li>
+                <a class="address__footer" href="#" target="_blank"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li>
+                <a class="mail__footer" href="#">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="phn__footer" href="#">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-link">
+            <h3 class="new__title">ПРИЄДНУЙТЕСЬ</h3>
+            <ul class="list__icon">
+              <li>
+                <a class="icon__footer" href="#">
+                  <svg class="icons__footer">
+                    <use href="./images/symbol-defs.svg#icon-inst"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon__footer" href="#">
+                  <svg class="icons__footer">
+                    <use href="./images/symbol-defs.svg#icon-tw"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon__footer" href="#">
+                  <svg class="icons__footer">
+                    <use href="./images/symbol-defs.svg#icon-fc"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon__footer" href="#">
+                  <svg class="icons__footer">
+                    <use href="./images/symbol-defs.svg#icon-in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <form action="" class="subscribtion">
-          <h3 class="subscribtion-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
-          <label for="email"></label>
-          <input
-            type="E-mail"
-            id="e-mail"
-            placeholder="E-mail"
-            class="subscribtion-input"
-          />
-          <button type="submit" class="subscribe-btn">Підписатися</button>
+          <label class="subscribtion-title" for="email"
+            >ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label
+          >
+          <div class="subscription__father">
+            <input
+              type="E-mail"
+              id="email"
+              placeholder="E-mail"
+              class="subscribtion-input"
+            />
+            <button type="submit" class="subscribe-btn">
+              Підписатися
+              <svg class="subscription__svg">
+                <use href="./images/symbol-defs.svg#icon-tg"></use>
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
     </footer>

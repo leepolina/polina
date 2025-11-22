@@ -270,11 +270,10 @@ img {
   width: 18px;
   height: 18px;
   position: absolute;
-  left: 52px;
   margin-top: 12px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: 13px;
+  left: 15px;
+  z-index: 2;
 }
 
 .modal__icon:hover,
@@ -293,8 +292,7 @@ img {
 }
 
 .modal__input {
-  width: 448px;
-  height: 40px;
+  width: 100%;
   border-width: 1px;
   border-radius: 4px;
   padding: 10px 10px 10px 40px;
