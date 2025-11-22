@@ -1,0 +1,55 @@
+.burger {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  z-index: 95;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  padding: 48px 40px;
+}
+.burger.is-hidden {
+//   display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.burger__contain {
+  display: none;
+
+  @media screen and (min-width:768px){
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  }
+ 
+
+}
+
+.close {
+}
+
+.burger__close {
+}
+.burger__list {
+}
+.burger__item {
+}
+.burger__address__list {
+}
+.burger__address__icon {
+}
+
+.burger.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.burger__address__link {
+}
+.burger__list__links {
+}
+.burger__item__links {
+}
+.burger__links {
+}

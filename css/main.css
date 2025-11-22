@@ -337,6 +337,46 @@ img {
   font-size: 14px;
 }
 
+.burger {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  z-index: 95;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  padding: 48px 40px;
+}
+
+.burger.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.burger__contain {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .burger__contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.burger.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .logo {
   font-family: "Raleway";
   font-size: 26px;
