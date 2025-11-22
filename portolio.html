@@ -17,15 +17,20 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="container header">
+   <header class="container header">
       <a href="./index.html" class="logo">WebStudio</a>
+      <button class="burger__menu" data-mob-open>
+        <svg class="icon__burger">
+          <use href="./images/symbol-defs.svg#icon_burger"></use>
+        </svg>
+      </button>
       <nav class="nav">
         <ul class="nav__list">
           <li><a href="./index.html" class="nav__item current">Студія</a></li>
           <li>
             <a href="./portolio.html" class="nav__item current">Портфоліо</a>
           </li>
-          <li><a href="" class="nav__item current">Контакти</a></li>
+          <li><a href="" class="nav__item">Контакти</a></li>
         </ul>
         <ul class="address__list">
           <li class="address__icon">
@@ -33,7 +38,7 @@
               <svg class="address__icon email">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
-              >info@devstudio.com
+              info@devstudio.com
             </a>
           </li>
           <li class="address__icon">
@@ -41,11 +46,53 @@
               <svg class="address__icon phone">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
               </svg>
-              >+38 096 111 11 11
+              +38 096 111 11 11
             </a>
           </li>
         </ul>
       </nav>
+      <div class="burger is-hidden" data-mob>
+        <div class="container">
+          <button class="close" data-mob-close>
+            <svg class="burger__close">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="burger__contain">
+            <ul class="burger__list">
+              <li><a href="./index.html" class="burger__item">Студія</a></li>
+              <li>
+                <a href="./portolio.html" class="burger__item">Портфоліо</a>
+              </li>
+              <li><a href="" class="burger__item">Контакти</a></li>
+            </ul>
+            <ul class="burger__address__list">
+              <li class="burger__address__icon">
+                <a href="" class="burger__address__link"> +38 096 111 11 11 </a>
+              </li>
+              <li class="burger__address__icon">
+                <a href="" class="burger__address__link">
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="burger__list__links">
+              <li class="burger__item__links">
+                <a href="" class="burger__links">Instagram</a>
+              </li>
+              <li class="burger__item__links">
+                <a href="" class="burger__links">Twitter</a>
+              </li>
+              <li class="burger__item__links">
+                <a href="" class="burger__links">Facebook</a>
+              </li>
+              <li class="burger__item__links">
+                <a href="" class="burger__links">LinkedIn</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main class="container main-item">
       <ul class="main-list">

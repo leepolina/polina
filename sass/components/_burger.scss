@@ -30,6 +30,10 @@
   border: none;
   background-color: #fff;
   position: relative;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .icon__burger {
