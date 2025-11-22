@@ -3,8 +3,17 @@
   align-items: center;
 }
 .nav {
-  @extend %flex;
-  justify-content: space-between;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
 
   &__list {
     @extend %flex;

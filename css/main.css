@@ -1,4 +1,4 @@
-.list-list, .main-list, .list__icon__black, .list__icon, .logofooter__item, .div__footer, .input, .team__svg__list, .team__list, .team__position, .team__name, .team__title, .whatwedo__list, .whatwedo__title, .about__list, .address__icon, .address__list, .nav__list, .nav, .header, .team-title, .whatwedo-title, .modal__label, .address-icon, .list-icon-black, .div-footer, .list-icon {
+.list-list, .main-list, .list__icon__black, .list__icon, .logofooter__item, .div__footer, .input, .team__svg__list, .team__list, .team__position, .team__name, .team__title, .whatwedo__list, .whatwedo__title, .about__list, .address__icon, .address__list, .nav__list, .header, .team-title, .whatwedo-title, .modal__label, .address-icon, .list-icon-black, .div-footer, .list-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,22 +354,33 @@ img {
   opacity: 0;
 }
 
-.burger__contain {
-  display: none;
+.burger__menu {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  position: relative;
 }
-@media screen and (min-width: 768px) {
-  .burger__contain {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+
+.icon__burger {
+  width: 40px;
+  height: 40px;
+}
+
+.close {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  padding: 10px 15px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.burger__close {
+  width: 35px;
+  height: 35px;
 }
 
 .burger.is-hidden {
@@ -479,9 +490,27 @@ img {
 }
 
 .nav {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 .nav__list {
   gap: 53px;
