@@ -1533,17 +1533,29 @@ img {
   gap: 30px;
 }
 .list-list img {
-  width: 370px;
+  width: 450px;
+  height: 294px;
 }
 
 .list-item {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  border: 1px solid rgb(238, 238, 238);
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-item {
+    width: 370px;
+  }
 }
 
 .image-item {
-  width: 370px;
-  height: 294px;
+  width: 100%;
 }
 
 .image__name {

@@ -13,7 +13,7 @@
   justify-content: center;
   margin-bottom: 50px;
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
   }
@@ -38,42 +38,47 @@
   margin-bottom: 94px;
   gap: 30px;
 
-
-  @media screen and (min-width:768px){
-
+  @media screen and (min-width: 768px) {
   }
 }
 
 .list-list img {
-  width: 370px;
+  width: 450px;
+  height: 294px;
 }
 
 .list-item {
   position: relative;
   overflow: hidden;
-  
+  width: 100%;
+  border: 1px solid rgba(238, 238, 238, 1);
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+  }
 }
 
 .image-item {
-  width: 370px;
-  height: 294px;
+  width: 100%;
 }
 
-.image__name{
-    font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 2px;
-
+.image__name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
 }
 
 .list-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 
-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .list-wrap {
